@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:role_title",
+ "creation": "2025-01-31 12:27:16.184117",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "add_roles_section_section",
+  "role_title",
+  "role_description",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "add_roles_section_section",
+   "fieldtype": "Section Break",
+   "label": "Add Roles Section"
+  },
+  {
+   "fieldname": "role_title",
+   "fieldtype": "Data",
+   "label": "Role Title",
+   "unique": 1
+  },
+  {
+   "fieldname": "role_description",
+   "fieldtype": "Data",
+   "label": "Role Description"
+  },
+  {
+   "default": "Active",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nActive\nInactive"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-31 12:29:41.063460",
+ "modified_by": "Administrator",
+ "module": "test_bidsforleads_customizations",
+ "name": "Add Roles",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

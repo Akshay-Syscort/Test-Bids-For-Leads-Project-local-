@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-31 10:40:06.117799",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "categories_section_section",
+  "category",
+  "sub_categories_table_section",
+  "sub_categories",
+  "roles_table_section",
+  "roles"
+ ],
+ "fields": [
+  {
+   "fieldname": "categories_section_section",
+   "fieldtype": "Section Break",
+   "label": "categories Section"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Link",
+   "label": "Category",
+   "options": "Category"
+  },
+  {
+   "fieldname": "sub_categories_table_section",
+   "fieldtype": "Section Break",
+   "label": "Sub Categories Table"
+  },
+  {
+   "fieldname": "sub_categories",
+   "fieldtype": "Table",
+   "label": "Sub Categories",
+   "options": "Sub Categories Child Table"
+  },
+  {
+   "fieldname": "roles_table_section",
+   "fieldtype": "Section Break",
+   "label": "Roles Table"
+  },
+  {
+   "fieldname": "roles",
+   "fieldtype": "Table",
+   "label": "Roles",
+   "options": "Add Roles Child Table"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-31 12:34:13.301180",
+ "modified_by": "Administrator",
+ "module": "test_bidsforleads_customizations",
+ "name": "categories",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

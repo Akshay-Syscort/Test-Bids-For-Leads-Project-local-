@@ -1,0 +1,62 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-30 14:18:02.316612",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "assets_doctype_section_section",
+  "assets_title",
+  "assets_type",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "assets_doctype_section_section",
+   "fieldtype": "Section Break",
+   "label": "Assets Doctype Section"
+  },
+  {
+   "fieldname": "assets_title",
+   "fieldtype": "Data",
+   "label": "Assets Title"
+  },
+  {
+   "fieldname": "assets_type",
+   "fieldtype": "Link",
+   "label": "Assets Type",
+   "options": "Assets Types"
+  },
+  {
+   "default": "Active",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nActive\nInactive"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-30 14:19:22.908066",
+ "modified_by": "Administrator",
+ "module": "test_bidsforleads_customizations",
+ "name": "Assets Doctype",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

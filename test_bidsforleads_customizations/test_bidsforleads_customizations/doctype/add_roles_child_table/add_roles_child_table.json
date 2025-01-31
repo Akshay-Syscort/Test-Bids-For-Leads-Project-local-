@@ -1,0 +1,40 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-31 12:32:13.858087",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "add_roles",
+  "role_description"
+ ],
+ "fields": [
+  {
+   "fieldname": "add_roles",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Add Roles",
+   "options": "Add Roles"
+  },
+  {
+   "fetch_from": "add_roles.role_description",
+   "fieldname": "role_description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Role Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-31 12:34:07.383312",
+ "modified_by": "Administrator",
+ "module": "test_bidsforleads_customizations",
+ "name": "Add Roles Child Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

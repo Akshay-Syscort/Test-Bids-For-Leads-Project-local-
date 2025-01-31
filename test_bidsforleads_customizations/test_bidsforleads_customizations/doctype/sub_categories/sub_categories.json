@@ -1,0 +1,58 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:sub_categories",
+ "creation": "2025-01-31 10:45:05.263615",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "sub_categories_section_section",
+  "sub_categories",
+  "categories"
+ ],
+ "fields": [
+  {
+   "fieldname": "sub_categories_section_section",
+   "fieldtype": "Section Break",
+   "label": "Sub Categories Section"
+  },
+  {
+   "fieldname": "sub_categories",
+   "fieldtype": "Data",
+   "label": "Sub Categories ",
+   "unique": 1
+  },
+  {
+   "fieldname": "categories",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Categories",
+   "options": "Category"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-31 11:51:20.045972",
+ "modified_by": "Administrator",
+ "module": "test_bidsforleads_customizations",
+ "name": "Sub Categories",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
