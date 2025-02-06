@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:value_title",
+ "autoname": "format:SYSC-{#####}",
  "creation": "2025-01-30 11:31:50.546176",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -44,11 +44,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-30 11:33:39.829480",
+ "modified": "2025-02-04 13:40:35.233784",
  "modified_by": "Administrator",
  "module": "test_bidsforleads_customizations",
  "name": "System Credits",
- "naming_rule": "By fieldname",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -64,7 +64,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "value_title"
 }

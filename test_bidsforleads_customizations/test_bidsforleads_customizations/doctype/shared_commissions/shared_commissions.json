@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:title",
+ "autoname": "format:SC-{####}",
  "creation": "2025-01-30 10:22:47.128385",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -30,11 +30,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-30 10:31:21.706976",
+ "modified": "2025-02-04 13:38:35.916137",
  "modified_by": "Administrator",
  "module": "test_bidsforleads_customizations",
  "name": "Shared Commissions",
- "naming_rule": "By fieldname",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -50,7 +50,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "title"
 }

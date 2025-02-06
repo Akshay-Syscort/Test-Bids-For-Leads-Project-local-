@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:assets_type",
+ "autoname": "format:AST-{####}",
  "creation": "2025-01-30 14:14:13.606578",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -24,11 +24,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-30 14:14:56.453344",
+ "modified": "2025-02-04 13:43:15.132529",
  "modified_by": "Administrator",
  "module": "test_bidsforleads_customizations",
  "name": "Assets Types",
- "naming_rule": "By fieldname",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -44,7 +44,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "assets_type"
 }

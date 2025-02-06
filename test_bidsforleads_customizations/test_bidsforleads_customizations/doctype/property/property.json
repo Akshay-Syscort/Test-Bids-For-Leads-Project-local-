@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:property_title",
+ "autoname": "format:PROP-{#####}",
  "creation": "2025-01-30 13:57:08.635579",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -36,11 +36,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-30 14:00:11.535969",
+ "modified": "2025-02-04 13:41:50.483541",
  "modified_by": "Administrator",
  "module": "test_bidsforleads_customizations",
  "name": "property",
- "naming_rule": "By fieldname",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -56,7 +56,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "property_title"
 }

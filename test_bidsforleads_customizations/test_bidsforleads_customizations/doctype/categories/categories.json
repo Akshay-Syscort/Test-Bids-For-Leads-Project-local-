@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:CAT-{#####}",
  "creation": "2025-01-31 10:40:06.117799",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -49,10 +50,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-31 12:34:13.301180",
+ "modified": "2025-02-06 09:49:43.207583",
  "modified_by": "Administrator",
  "module": "test_bidsforleads_customizations",
  "name": "categories",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

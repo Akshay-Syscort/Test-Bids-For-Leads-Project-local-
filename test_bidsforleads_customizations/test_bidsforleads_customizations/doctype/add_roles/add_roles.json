@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:role_title",
+ "autoname": "format:RO-{####}",
  "creation": "2025-01-31 12:27:16.184117",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -38,11 +38,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-31 12:29:41.063460",
+ "modified": "2025-02-06 09:38:24.707082",
  "modified_by": "Administrator",
  "module": "test_bidsforleads_customizations",
  "name": "Add Roles",
- "naming_rule": "By fieldname",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -58,7 +58,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "role_title"
 }
